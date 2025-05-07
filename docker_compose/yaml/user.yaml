@@ -1,0 +1,17 @@
+firstName: Bastian
+middleName: H
+lastName: S
+hobbies:
+  - Coding
+  - Reading
+  - Gaming
+address:
+  street: 123 Main St
+  city: Springfield
+  state: IL
+  zip: 62704
+wallet:
+  - type: cast
+    amount: 100000
+  - type: debit
+    amount: 50000

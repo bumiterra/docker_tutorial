@@ -1,0 +1,11 @@
+services:
+
+  # This is example nginx
+  nginx-example:
+    container_name: nginx-example
+    image: nginx:latest
+  
+  # This is example mongodb
+  mongodb-example:
+    container_name: mongodb-example
+    image: mongo:latest

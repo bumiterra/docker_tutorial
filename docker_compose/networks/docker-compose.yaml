@@ -1,0 +1,17 @@
+services:
+  mongodb-example:
+    container_name: mongodb-example
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: bas
+      MONGO_INITDB_ROOT_PASSWORD: bas
+      MONGO_INITDB_DATABASE: mydb
+    networks:
+      - network_example
+
+networks:
+  network_example:
+    name: network_example
+    driver: bridge
